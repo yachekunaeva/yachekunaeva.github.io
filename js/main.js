@@ -38,7 +38,7 @@ if (faveCommodity === 'nickel' ||
 	$('body').css('color', "pink");
 
 	}
-var pageMyFavCom = alert ("Dear" + " " + fullName +" " + "thank you for submitting your favourite commodity, which happens to be" + " " + faveCommodity +". My 3rd favourite commodity is phosfate rock. If web-page hasn't changed then your favorite commodity is not Ni, Au, Pt, Rd");
+var pageMyFavCom = alert ("Dear" + " " + fullName +" " + "thank you for submitting your favourite commodity, which happens to be" + " " + faveCommodity +". My 3rd favourite commodity is phosphate rock. If web-page hasn't changed then your favorite commodity is not Ni, Au, Pt, Rd");
 
 }
 
