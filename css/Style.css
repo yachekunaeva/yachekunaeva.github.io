@@ -1,0 +1,91 @@
+body {
+	background-color: #AEAAB3;
+	background-image: url(../images/BG.jpg);
+	background-repeat:  no-repeat;
+	background-size: cover; /*means that it covers the whole size of the page as per screen size*/
+	background-attachment: fixed; /*scrolls page without moving background*/
+	font-family: Helvetica, Arial, sans-serif;
+	color: #ffffff;
+}
+
+.main {
+	width: 1000px;
+	margin: 0 auto;
+	border-radius: 50px;
+	padding: 20px;
+	background-color: white;
+	background-color: rgba(255, 255, 255, 0.25);
+	box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.5)
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Josefin Sans', sans-serif;
+	text-shadow: 5px 5px 30px white;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 6px;
+	line-height: 0.5;
+	font-family: 'Josefin Sans', sans-serif;
+	text-shadow: 5px 5px 30px white
+}
+
+h3 {
+	border-bottom: 3px solid ivory;
+	cursor: pointer;
+	margin-bottom: 0px
+}
+
+h3:hover {
+	text-decoration: underline;
+	text-decoration-color: red; 
+
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	border: 6px solid ivory;
+	border-radius: 100%;
+	width: 300px; 
+}
+img:hover {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.Logo {
+	width: 100px;
+	margin: 0 auto;
+	border-width: 30px solid ivory;
+	border-radius: 100%;
+
+}
+
+.Logo:hover {
+	width: 200px;
+}
+
+p, ul, ol {
+	line-height: 1.5;
+	padding-left: 0;
+}
+
+ul {
+	list-style: none;
+
+}
+
+ol {
+	padding-left: 20px;
+}
+
+
+ul li {
+	display: inline-block;
+}
