@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+	background-color: #FDFBFF;
+	color: #1E2E20;
+}
+
+header, footer {
+	padding: 20px;
+}
+
+header {
+	text-align: right;
+}
+
+#intro {
+	background-image: url(images/openpit.JPG);
+	color: white;
+	font-size: 25px;
+	position: relative;
+}
+
+#intro h1 {
+	font-size: 100px;
+	position: absolute; /*this is the way i found to put my H1 on top of the background picture, yet it doesnt move with the chnages of the screen size.... not receptive*/
+	top: 200px;
+	left: 100px;
+	z-index: 1;
+}
+
+#intro h3 {
+	position: absolute; /*this is the way i found to put my H1 on top of the background picture, yet it doesnt move with the chnages of the screen size.... not receptive*/
+	top: 350px;
+	left:100px;
+	z-index: 1
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+#main_image {
+	width: 100%;
+}
+
+/*i have a link in the section #intro - "read more", it appears now below at the left hand side of the picture, while it shall appear at the bottom right hand side of the picture and be on the white background*/
+
+main {
+	background-color: #cccccc;
+	font-size: 20px;
+}
+
+#news {
+
+}
+
+#facts {
+	background-color: #cccccc; /*how to make grey be applied to three areas i want it to be applied in one go, if one area is main and the other two are defined by ID within <div> tags*/
+	text-align: center;
+}
+
+footer {
+	background-color: black;
+	color: #FDFBFF;
+	text-align: center;
+	font-size: 12px;
+}
+
+a {
+	color: #076B7E;
+	font-style: italic;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+nav a {
+	font-style: normal;
+	margin-left: 150px;
+}
+
+footer a {
+	font-style: normal;
+	color: #FDFBFF;
+}
+
+p, ul, ol {
+	line-height: 1.5;
+	padding-left: 25px;
+}
+
+ul {
+	list-style: none;
+}
