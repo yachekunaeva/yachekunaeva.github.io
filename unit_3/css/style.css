@@ -42,15 +42,32 @@ header {
 	text-transform: uppercase;
 }
 
+#intro a {
+	position: absolute;
+	top: 350px;
+	left: 1000px;
+	width: 250px;
+	padding: 10px;
+	border: 5px solid #076B7E;
+	background-color: #FDFBFF;
+}
+
+/*i have a link in the section #intro - "read more", 
+*it appears now below at the left hand side of the picture, 
+*while it shall appear at the bottom right hand side of 
+*the picture and be on the white background*/
+
 #main_image {
 	width: 100%;
 }
 
-/*i have a link in the section #intro - "read more", it appears now below at the left hand side of the picture, while it shall appear at the bottom right hand side of the picture and be on the white background*/
-
 main {
 	background-color: #cccccc;
 	font-size: 20px;
+}
+
+#picture_why {
+	float: right;
 }
 
 #news {
@@ -67,6 +84,25 @@ footer {
 	color: #FDFBFF;
 	text-align: center;
 	font-size: 12px;
+}
+
+#footerlinks {
+	column-count: 4;
+	-webkit-column-count:4;
+	-moz-column-count:4;
+	column-gap: 40px;
+}
+
+.footerH2 {
+	font-size: 15px;
+	font-style: 700;
+	text-decoration: underline;
+	text-align: left;
+}
+
+.footerlinks {
+	text-align: left;
+	margin-left: 50px;
 }
 
 a {
