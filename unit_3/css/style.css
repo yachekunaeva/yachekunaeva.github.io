@@ -1,12 +1,14 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
 	font-family: Helvetica, sans-serif;
 	background-color: #FDFBFF;
 	color: #1E2E20;
+	line-height: 1.5;
 }
 
 header, footer {
@@ -14,42 +16,48 @@ header, footer {
 }
 
 header {
-	text-align: right;
+	/* text-align: right; */
+}
+nav {
+	float:right;
+}
+#social-nav {
+	border-bottom: 2px solid;
+}
+#social-nav > * {
+	float:left;
 }
 
 #intro {
-	background-image: url(images/openpit.JPG);
+	background-image: url(../images/openpit.JPG);
+	background-size: contain;
+	background-repeat: no-repeat;
 	color: white;
 	font-size: 25px;
 	position: relative;
+	padding: 0em 0 0 2em;
+	height: 53vh;
 }
 
 #intro h1 {
 	font-size: 100px;
-	position: absolute; /*this is the way i found to put my H1 on top of the background picture, yet it doesnt move with the chnages of the screen size.... not receptive*/
-	top: 200px;
-	left: 100px;
-	z-index: 1;
+	 /*this is the way i found to put my H1 on top of the background picture, yet it doesnt move with the chnages of the screen size.... not receptive*/
 }
 
 #intro h3 {
-	position: absolute; /*this is the way i found to put my H1 on top of the background picture, yet it doesnt move with the chnages of the screen size.... not receptive*/
-	top: 350px;
-	left:100px;
-	z-index: 1
-	font-weight: bold;
-	font-style: italic;
-	text-transform: uppercase;
+	 /*this is the way i found to put my H1 on top of the background picture, yet it doesnt move with the chnages of the screen size.... not receptive*/
+	 font-style: italic;
+	 text-transform: uppercase;
 }
 
 #intro a {
-	position: absolute;
-	top: 350px;
-	left: 1000px;
+	\: 1000px;
 	width: 250px;
 	padding: 10px;
 	border: 5px solid #076B7E;
 	background-color: #FDFBFF;
+	display: inline-block;
+	text-align: center;
 }
 
 /*i have a link in the section #intro - "read more", 
@@ -123,10 +131,17 @@ footer a {
 }
 
 p, ul, ol {
-	line-height: 1.5;
+	/* line-height: 1.5; */
 	padding-left: 25px;
 }
 
 ul {
 	list-style: none;
+}
+.clearfix:after {
+	height:0;
+	visibility:hidden;
+	content: " ";
+	display:block;
+	clear:both;
 }
