@@ -121,6 +121,12 @@ img {
 	text-align: center;
 }
 
+#intro a:hover {
+	background-color: #1BA19B;
+	color: #FDFBFF;
+	border: 5px solid #FDFBFF;
+}
+
 /*i have a link in the section #intro - "read more", 
 *it appears now below at the left hand side of the picture, 
 *while it shall appear at the bottom right hand side of 
@@ -141,6 +147,11 @@ main a {
 	text-align: center;
 }
 
+main a:hover {
+	background-color: #1BA19B;
+	color: #FDFBFF;
+	border: 5px solid #FDFBFF;
+}
 
 #news {
 
