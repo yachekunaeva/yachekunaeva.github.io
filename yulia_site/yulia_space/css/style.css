@@ -17,19 +17,29 @@ body {
 }
 
 header, footer {
-	padding: 1.5em;
+	padding: 2em;
 }
 
 header {
-	/* text-align: right; */
+	 text-align: right; 
 }
 
 nav {
-	float:right;
+	padding: 0.25em;
+	/*float:right;*/
+}
+
+a {
+	text-decoration: none;
+	color: #dd0000;
+}
+
+p {
+	width: 25em;
 }
 
 #intro {
-	background-image: url(../images/background.JPG);
+	background-image: url(../images/background1.JPG);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: black;
@@ -49,6 +59,8 @@ nav {
 #logo {
 	width:5em;
 	float: left;
+	border-width: 5px solid #FDFBFF;
+	border-radius: 100%;
 }
 
 .clearfix:after {
