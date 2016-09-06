@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Haystack Analytics</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="wrapper">
+		<header class="clearfix">
+			<img src="images/logo.jpg" alt="the logo of haystack analytics" title="Haystack analytics logo" id=logo>
+			<nav id="social-nav">
+				<a href="#"> <img src="images/LinkedIn.jpg" alt="LinkedIn" title="Link to LinkedIn" class=social_logo></a>
+				<a href="#"> <img src="images/twitter.png" alt="Twitter" title="Link to Twitter" class=social_logo></a>
+				<a href="#">login/signin</a>
+				<p>phone: XXX-XXX-XXX</p>
+			</nav>
+			<nav id="main-nav">
+				<a href="#" class="main nav">Our services</a>
+				<a href="#" class="main nav">Our publications</a>
+				<a href="#" class="main nav">About us</a>
+				<a href="#" class="main nav">Careers</a>
+				<a href="#" class="main nav">Contact us</a>		
+			</nav>
+		</header>
+		<section id="intro">
+			<h1>Haystack Analytics</h1>
+			<h3>We make you gain by thinking with you</h3>
+			<!-- i would like to have a changing text on top of the changing images 3-5 changes in total, is this achieved in Java? -->
+			<a href="#" class="body_link">Read more ></a>
+			<!-- a link to the section of the web-page "About us", i would like it to be positioned in the botton right hand side corner of the image and be looking like a button -->
+		</section>
+		<main>
+			<!-- main block of landing page content with part of the message that is still above the fold, yet the whole div consist of two parts: two side by side rectanguilar sections followed by section with three images in circles and text ontop of them, this latter part is below the fold-->
+			<section id="two_column" class="clearfix">
+			<!-- start of the first section out of the two rectangular side by side sections -->
+				<div id="left">
+					<h2>Who we are</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<!-- the next section is by the side of the previous section and their dimensions (Width x Heght) in px are exactly the same -->
+				<div id="right">
+					<img src="images/diamonds.JPG" alt="rough diamonds on the green table russia" title="rough diamonds" id=picture_why>
+					<a href="#" class="body_link">Contact us ></a>	
+				</div>
+			</section>
+			<hr>
+			<!-- the hr tag input to complete the above the fold -->
+			<section id="services" class="clearfix">
+				<h2>What we do</h2>
+					<div class=service_type>
+						<img src="images/independence.jpg" alt="message 1" title="circle 1">
+						<h3>Message 1</h3>
+					</div>
+					<div class=service_type>
+						<img src="images/analysis.jpg" alt="message 2" title="circle 2">
+						<h3>Message 2</h3>
+					</div>
+					<div class=service_type>
+						<img src="images/view.jpg" alt="message 3" title="circle 3">
+						<h3>Message 3</h3>
+					</div>
+			</section>
+		</main>
+
+		<section id=news>
+			<div id=signup>
+				<h2>Stay up to date</h2>
+				<p>Sign up to our newsletter</p>
+				<!-- need to find code for the input of the email by the visitor of the web-page so that upon pushing submit button his email address gets onto our database of emails for the newsletter distribution -->
+			</div>
+			<div id=newsdigest>
+				<h2>News wire</h2>
+				<section>
+					<h3>ALROSA mined a 136.24-carat diamond</h3>
+					<p>Aug 15, 2016 - The world leader in diamond mining, announces the recovery of a 136.24-carat diamond from Nyurbinskaya pipe.</p>
+					<a href="http://eng.alrosa.ru/alrosa-mined-a-136-24-carat-diamond/">read more</a>
+				</section>
+				<section>
+					<h3>AngloGold Ashanti trebles free cash flow to $108m, cuts net debt 32%</h3>
+					<p>Aug 15, 2016 - AngloGold Ashanti said it more than trebled free cash flow generation in the first half of the year to $108m and lowered net debt by almost a third, as costs fell and it took advantage of a higher gold price.</p>
+					<a href="http://www.anglogoldashanti.com/en/Media/news/Pages/20160815_Q2Results.aspx">read more</a>
+				</section>
+				<section>
+					<h3>Steelmaking is our passion and it is this passion that will continue to drive ArcelorMittal for many years to come - ArcelorMittal chairman and CEO Lakshmi Mittal issues tenth anniversary statement</h3></li>
+					<p> Aug 1, 2016 - On 1 August 2006, Arcelor and Mittal Steel merged to create the world’s leading steel company. Today, the company is marking its ten-year anniversary.</p>
+					<a href="http://corporate.arcelormittal.com/news-and-media/news/2016/aug/01-08-2016a">read more</a> 
+				</section>	
+			</div>
+		</section>
+
+		<section id="facts">
+			<h2>Mined fact of the month</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<!-- optionally there may be a chart added or image -->
+			<!-- <img src="#" alt="picture representing mined fact" title="mined fact"> -->
+			<a href="#">More facts to mine</a>
+		</section>
+		<footer>
+			<div id=footerlinks>
+				<a class="footerH2" href="#">Our services</a> 
+				<!-- how to make that every elemant of class footerH2 is at the top of the column-->
+				<ul class="footerlinks">
+					<li><a href="#">Research</a></li>
+					<li><a href="#">Bespoke work</a></li>
+					<li><a href="#">Special Projects</a></li>
+					<li><a href="#">Our PMI</a></li>
+				</ul>
+				<a class="footerH2" href="#">Our publications</a>
+				<ul class="footerlinks">
+					<li><a href="#">101 Library</a></li>
+					<li><a href="#">News Wire</a></li>
+					<li><a href="#">Our Blog</a></li>
+					<li><a href="#">Facts to mine</a></li>
+				</ul>
+				<a class="footerH2" href="#">About Haystack</a>
+				<ul class="footerlinks">
+					<li><a href="#">Mission</a></li>
+					<li><a href="#">Values</a></li>
+					<li><a href="#">Expertise</a></li>
+					<li><a href="#">People</a></li>
+					<li><a href="#">Media about us</a></li>
+				</ul>
+				<a class="footerH2" href="#">Legal Notices</a>
+				<ul class="footerlinks">
+					<li><a href="#">Terms of Services</a></li>
+					<li><a href="#">Privacy and cookies policy</a></li>
+					<li><a href="#">Disclaimers</a></li>
+					<li><a href="#">Copyrights</a></li>
+				</ul>
+			</div>
+			<nav id=footernav>
+				<a href="#"> <img src="images/LinkedIn.jpg" alt="LinkedIn" title="Link to LinkedIn" class=social_logo></a>
+				<a href="#">login/signin</a>
+				<a href="#"> <img src="images/twitter.png" alt="Twitter" title="Link to Twitter" class=social_logo></a>
+				<p>phone: XXX-XXX-XXX</p>
+			</nav>
+			<hr>
+			<p id=allrights>Haystack Analytics (C) - 2016 - All rights reserved</p>
+			<hr>
+			<a href="#">Go to top</a>
+			<p>Contact us via <a href="mailto:julia-meu-meu@mtu-net.ru">E-mail</a></p>
+			<hr>
+		</footer>
+	</div>
+</body>
+</html>
