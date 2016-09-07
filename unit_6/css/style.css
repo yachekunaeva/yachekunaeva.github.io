@@ -228,7 +228,7 @@ footer hr {
 	column-count: 4;
 	-webkit-column-count:4;
 	-moz-column-count:4;
-	column-gap: 20em;
+	column-gap: 5em;
 }
 
 #footernav {
