@@ -1,0 +1,439 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway|Roboto|Source+Serif+Pro';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-style: bold;
+	font-size: 20px; /*1em=20px*/
+	background-color: #FDFBFF;
+	color: #0C4932;
+	line-height: 1.5;
+	position: relative;
+}
+
+#wrapper {
+	padding:0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #FDFBFF;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 600;
+	font-style: black;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+div, section > #footerlinks {
+	background-color: #FDFBFF;
+	padding: 1%;
+}
+
+a {
+	color: #1BA19B;
+	font-weight:900;
+	text-decoration: none;
+}
+
+footer a {
+	font-style: normal;
+	color: #FDFBFF;
+}
+
+p {
+	line-height: 1.25;
+}
+
+ul, ol {
+	line-height: 1.25;
+	padding-left: 1.25em;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	width:100%;
+	margin: 0 auto;
+}
+
+#logo {
+	width:4em;
+}
+
+#main-nav {
+	border-top: 2px solid #0C4932;
+	padding: .5% 0 .5% 0;
+	text-align: center;
+}
+
+.main_nav {
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.05em;
+	display: block;
+	float: left;
+	margin: 0 auto;
+	padding: 1% 2%;
+	width: 20%;
+}
+
+#login {
+	background-color: #1BA19B;
+	color: #FDFBFF;
+	border: 1% solid #FDFBFF;
+}
+
+#intro {
+	background-image: url(../images/openpit.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	position: relative;
+	padding: 1em 0 0 2em;
+	height: 55vh;
+}
+
+#intro h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.25em;
+	font-weight: 700;
+	text-align: center;
+}
+
+main {
+	background-color: #cccccc;
+	padding: 0.5%;
+}
+
+#business #news {
+    padding: 0.25%;
+}
+
+#about {
+	background-color: #cccccc;
+    float: left;
+    width: 55%;
+}
+
+#services {
+	background-color: #cccccc;
+    float: right;
+    width: 45%;
+}
+
+#signup {
+	float: right;
+	width: 30%;
+}
+
+#signup p {
+	margin-bottom: 4%;
+}
+
+.services_link {
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.9em;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	width: 22%;
+	padding: 5% 0 5% 0;
+	display: inline-block;
+	text-align: center;
+	border: 5px solid #1BA19B;
+	margin: 1%;
+	border-radius: 100%
+}
+
+.services_link:hover {
+	background-color: #1BA19B;
+	color: #FDFBFF;
+	border: 5px solid #FDFBFF;
+}
+
+#newswire {
+	float: left;
+	width: 65%;
+}
+
+#facts {
+	background-color: #cccccc; /*how to make grey be applied to three areas i want it to be applied in one go, if one area is main and the other two are defined by ID within <div> tags*/
+	text-align: center;
+}
+
+footer {
+	background-color: black;
+	color: #FDFBFF;
+	text-align: center;
+	font-size: 0.6em;
+	padding: 1em;
+}
+
+footer hr { 
+	height: 3px
+	background-color: #cccccc;
+	width: 15em;
+	margin: 1em auto;
+}
+
+.footercolumn {
+	background-color: black;
+	text-align: left;
+}
+
+#footerlinks {
+	column-count: 4;
+	-webkit-column-count:4;
+	-moz-column-count:4;
+	column-gap: 5em;
+}
+
+#footernav {
+	float:none;
+	padding: 0.25em;
+}
+
+#footernav > * {
+	float:center;
+}
+
+.footerH2 {
+	font-size: 1.25em;
+	font-style: 700;
+	text-decoration: underline;
+	text-align: left;
+}
+
+.footerlinks {
+	text-align: left;
+	margin-left: 2.5em;
+}
+
+.social_logo {
+	width: 1.25em;
+	margin: 0 auto;
+	border-width: 5px solid #FDFBFF;
+	border-radius: 100%;
+}
+
+
+.clearfix:after {
+	height:0;
+	visibility:hidden;
+	content: " ";
+	display:block;
+	clear:both;
+}
+
+#toggle {
+	display: none;
+}
+
+label {
+	display: none;
+}
+
+@media screen and (min-width:1650px) {
+	#wrapper {
+		width: 1640px;
+	}	
+}
+
+@media screen and (max-width:1280px) {
+	body {
+		font-size: 18px;
+	}	
+}
+
+@media screen and (max-width:1145px) {
+	body {
+		font-size: 16px;
+	}	
+
+	#intro {
+		height: 45vh;
+	}	
+}
+
+@media screen and (max-width:1050px) {
+	.services_link {
+		width: 100%;
+		padding: 1% 0 1% 0;
+		display: block;
+		border: 2px solid #1BA19B;
+		border-radius: 0%;
+	}
+
+	#intro {
+		height: 37vh;
+	}	
+}
+
+@media screen and (max-width:950px) {
+	.main_nav {
+		font-size:0.9em;
+	}
+
+	#newswire {
+	width: 60%;
+	}
+
+	#signup {
+	width: 40%;
+	}
+
+}
+
+@media screen and (max-width:855px) {
+	.main_nav {
+		font-size:0.8em;
+		padding: 1% 1%;
+	}	
+}
+
+@media screen and (max-width:705px) {
+	#intro {
+		padding: 1% 0 0 1%;
+		height: 30vh;
+	}
+	
+	p {
+		font-size: 0.9em;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 1.25em;
+	}
+
+	.main_nav {
+		font-size:0.7em;
+		padding: 1% 0.5%;
+	}
+		
+}
+
+@media screen and (max-width:630px) {
+	.footerlinks {
+		display: none;
+	}	
+
+	#newsdigest p {
+		display: none;
+	}
+
+	#signup {
+		width: 45%;
+	}
+	#newswire {
+		width: 55%;
+	}
+}
+
+@media screen and (max-width:560px) {
+	label{
+		display: block;
+		text-align: center;
+	}
+
+	#login {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.main_nav {
+		display:none;
+	}
+
+	#toggle:checked + .main_nav{
+		display: block;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:520px) {
+	h1 {
+		font-size: 2em;
+	}
+
+	#intro h3 {
+		font-size: 1.1em;
+	}
+
+
+	#intro {
+		padding: 1% 0 0 1%;
+		height: 23vh;
+	}
+
+	#about {
+		background-color: #cccccc;
+	    float: none;
+	    width: 100%;
+	}
+
+	#services {
+	    float: none;
+	    width: 100%;
+	}
+	
+	#signup {
+		float: none;
+		width: 100%;
+	}
+
+	#newswire {
+		float: none;
+		width: 100%;
+	}
+
+	#picture_why {
+		display: none;
+	}
+
+	#signup p {
+		margin-bottom: 1%;
+	}
+
+} 
+
+@media screen and (max-width:320px) {
+
+	#intro {
+		padding: 1% 0 0 1%;
+		height: 18vh;
+	}
+
+	#intro h3 {
+		font-size: 0.8em;
+	}
+
+	#logo {
+		width:2em;
+	}
+
+	p {
+		font-size: 0.8em;
+	}
+}
