@@ -42,7 +42,7 @@ h2 {
 
 div, section > #footerlinks {
 	background-color: #FDFBFF;
-	padding: 1%;
+	padding: 2em;
 }
 
 a {
@@ -87,11 +87,10 @@ img {
 .main_nav {
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 0.05em;
-	display: block;
-	float: left;
+	display: inline-block;
 	margin: 0 auto;
-	padding: 1% 2%;
-	width: 20%;
+	padding: 1% 0%;
+	width: 19%;
 }
 
 #login {
@@ -104,6 +103,7 @@ img {
 	background-image: url(../images/openpit.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	color: white;
 	position: relative;
 	padding: 1em 0 0 2em;
@@ -261,13 +261,14 @@ label {
 	}	
 }
 
-@media screen and (max-width:1145px) {
+@media screen and (max-width:1160px) {
 	body {
 		font-size: 16px;
 	}	
 
 	#intro {
-		height: 45vh;
+		height: initial;
+		padding: 5em 1em;
 	}	
 }
 
@@ -281,7 +282,6 @@ label {
 	}
 
 	#intro {
-		height: 37vh;
 	}	
 }
 
@@ -366,9 +366,10 @@ label {
 		display:none;
 	}
 
-	#toggle:checked + .main_nav{
+	#toggle:checked + nav a {
 		display: block;
 		width: 100%;
+		/* padding: 2em 0; */
 	}
 }
 
